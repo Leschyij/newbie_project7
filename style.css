@@ -109,7 +109,12 @@ body {
     color: hsl(178, 100%, 50%);
 }
 
-
+@media screen and (max-width: 480px) {
+    #container {
+        max-width: 375px;
+        padding: 20px;
+    }
+}
 
 
 
